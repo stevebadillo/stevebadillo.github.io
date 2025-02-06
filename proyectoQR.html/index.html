@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comedor ESPOCH</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .section-container {
+      padding: 20px;
+    }
+    .section-container h2 {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 2em;
+      color: #333;
+    }
+    .menu-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .dish {
+      width: 300px;
+      margin: 15px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+    .dish img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.3s ease;
+    }
+    .dish img:hover {
+      transform: scale(1.05);
+    }
+    .dish h2 {
+      margin: 10px 0;
+      font-size: 1.2em;
+    }
+    .dish a {
+      text-decoration: none;
+      color: inherit;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #eee;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Comedor ESPOCH</h1>
+  </header>
+
+  <main>
+    <!-- Sección de Desayunos -->
+    <section class="section-container">
+      <h2>Desayunos</h2>
+      <div class="menu-container">
+        <!-- Desayuno 1 -->
+        <div class="dish">
+          <a href="detalle_desayuno1.html">
+            <img src="Desayuno.jfif" alt="Desayuno Campus">
+            <h2>Desayuno Campus</h2>
+          </a>
+        </div>
+        <!-- Desayuno 2 -->
+        <div class="dish">
+          <a href="detalle_desayuno2.html">
+            <img src="Tostadas.jpg" alt="Tostadas Integrales">
+            <h2>Tostadas Integrales</h2>
+          </a>
+        </div>
+        <!-- Desayuno 3 -->
+        <div class="dish">
+          <a href="detalle_desayuno3.html">
+            <img src="Omelette2.jpg" alt="Omelette Express">
+            <h2>Omelette Express</h2>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Almuerzos -->
+    <section class="section-container">
+      <h2>Almuerzos</h2>
+      <div class="menu-container">
+        <!-- Almuerzo 1: Chuleta a la Plancha -->
+        <div class="dish">
+          <a href="detalle_chuleta.html">
+            <img src="chuleta.jfif" alt="Chuleta a la Plancha">
+            <h2>Chuleta a la Plancha</h2>
+          </a>
+        </div>
+        <!-- Almuerzo 2: Espaguetis a Carbonara -->
+        <div class="dish">
+          <a href="detalle_espaguetis.html">
+            <img src="carbonara.jfif" alt="Espaguetis a Carbonara">
+            <h2>Espaguetis a Carbonara con pollo</h2>
+          </a>
+        </div>
+        <!-- Almuerzo 3: Seco de Chivo -->
+        <div class="dish">
+          <a href="detalle_secochivo.html">
+            <img src="secodechivo.jfif" alt="Seco de Chivo">
+            <h2>Seco de Chivo</h2>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Comedor ESPOCH</p>
+  </footer>
+</body>
+</html>
